@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Video Games Marathon Rev 3.2.5</title>
+<title>Video Games Marathon Rev 3.3</title>
 <meta charset="utf-8">
 <link rel="icon" href="favicon.ico" type="image/x-icon"/> <!--Sets the favicon (little icon) for the page -->
 <link href="main4.css" rel="stylesheet"><!--Loads the main css file-->
@@ -11,9 +11,9 @@
 <body class="back CursorSonic"> <!-- The class back applies the background, CursorSonic applies the custom cursor. It loads the Star Trek date thing on load-->
 <iframe class="DuckDuckGoScroll" src="https://duckduckgo.com/search.html?duck=yes&prefill=Search DuckDuckGo" style="margin:0;padding:0;width:483px;height:60px;position: sticky; top: 10;" frameborder="0"></iframe><!-- The DuckDuckGo Search Bar-->
 
-<h1 class="centre" style="width: 430px;opacity:0.75;border: 2px solid black ;border-radius:4px;margin-right:auto;margin-left:auto;font-size: 32;background-image: linear-gradient(to right, rgba(0,0,0,0.15), rgba(0,0,0,0.6));">Video Games Marathon Rev 3.2.5</h1> <!--The title-->
-
-<h4 class="h4 centre">The following is a list of easily playable games in the Sonic/Metroid franchise in chronological order. Older Browsers can go here: <a href="http://lunaqua.github.io/VideoGamesMarathon/classic.html">Classic</a> It is for use as a marathon list:</h4>
+<h1 class="centre" style="width: 430px;opacity:0.75;border: 2px solid black ;border-radius:4px;margin-right:auto;margin-left:auto;font-size: 32;background-image: linear-gradient(to right, rgba(0,0,0,0.15), rgba(0,0,0,0.6));">Video Games Marathon Rev 3.3</h1> <!--The title-->
+<h4 class="h4 centre"><a href="https://lunaqua.github.io/VideoGamesMarathon/">https://lunaqua.github.io/VideoGamesMarathon/</a> or <a href="http://tinyurl.com/VGMarathon">http://tinyurl.com/VGMarathon</a></h4>
+<h4 class="h4 centre">The following is a list of easily playable games in the Sonic/Metroid franchise in chronological order. Older Browsers can go here: <a href="classic.html">Classic</a> It is for use as a marathon list:</h4>
 
 <ul>
 <h2>Rules:</h2>
@@ -172,6 +172,7 @@
     <a href="http://sonic.wikia.com/wiki/Sonic_Mania_Plus" target="iframe1">Sonic Mania (PS4, Xbox One, Nintendo Switch, PC; 2017)</a> <br>
     <a href="http://sonic.wikia.com/wiki/Sonic_Forces" target="iframe1">Sonic Forces (PC, PS4, Xbox One, Nintendo Switch; 2017)</a> <br>
 	<a href="http://sonic.wikia.com/wiki/Sonic_Mania_Plus" target="iframe1"><font color="blue">Sonic Mania Plus (Encore Mode) (PS4, Xbox One, Nintendo Switch, PC; 2018)</font> </a> <br>
+	<a href="http://sonic3air.org/" target="iframe1"><font color="blue">Sonic 3 : Angel Island Revisited</font></a><br>
 	<a href="http://sonic.wikia.com/wiki/Team_Sonic_Racing" target="iframe1"><font color="green">Sonic Team Racing (PC, Switch, PS4, Xbox One; TBR)</font></a>
 	</p>
 </div>
@@ -237,6 +238,7 @@
 	Rev 3.2.1 - Various Tweaks. <br>
 	Rev 3.2.2 - Changed all links to point to lunaqua.github.io/VideoGamesMarathon. <br>
 	Rev 3.2.5 - Fixed compatibility with chromium-based browsers. Ugly, but it works. <br>
+	Rev 3.3   - Added Sonic 3 A.I.R and changed music. Complete migration to github.<br>
 </p>
 
 </div>
@@ -320,7 +322,7 @@ function MetroidList() {
 <script><!--Metroid Music-->
 function orange()
 {
-	document.getElementById("audioid").src="Brinstar.mp3";
+	document.getElementById("audioid").src="superm.mp3";
 	}
 </script>
 
@@ -346,7 +348,7 @@ function Tails() {
 	back.classList.remove("back");
 	back.classList.add("backt");
 	
-	document.getElementById("audioid").src="BIM(I).mp3";
+	document.getElementById("audioid").src="tails.mp3";
 
 	}
 </script>
@@ -376,7 +378,7 @@ function Shadow() {
 	back.classList.remove("back");
 	back.classList.add("backs");
 	
-	document.getElementById("audioid").src="IamAll.mp3"
+	document.getElementById("audioid").src="shadow.mp3"
 	}
 </script>
 
@@ -387,9 +389,9 @@ function SonicRetro() {
 </script>
 <a href="https://mozilla.org" ><img src="http://sdfox7.com/now9.gif" alt="Net"></a>
 
-<audio id="audioid" src="SS.mp3" 
-	controls>
-	
+<audio id="audioid" src="ss.flac" 
+	controls
+	autoplay>
 </audio>
 </div>
     <div id="outdated"></div>
