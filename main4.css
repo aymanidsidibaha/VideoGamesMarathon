@@ -463,19 +463,19 @@ color:white;
 
 
 .back{
-	background-image:url("segabackground.png");
+	background-image:url("images/sonicBackground.png");
 	}
 	
 .backt{
-	background-image:url("segabackgroundt.png");
+	background-image:url("images/tailsBackground.png");
 	}
 	
 .backs{
-	background-image:url("segabackgrounds.png");
+	background-image:url("images/shadowBackground.png");
 	}
 	
 .backm{
-	background-image:url("metroidback.png");
+	background-image:url("images/metroidBack.png");
 	}
 	
 .centre{
