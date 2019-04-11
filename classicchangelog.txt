@@ -55,5 +55,6 @@ Genesis 1.0 - Creation
 	Rev 3.1   - The Sonic 1,2 and CD remakes have been added as optional titles. 2 ROM Hacks have been added. ROMHacks.zip has been updated. Sonic Mania Plus' Encore Mode has been added as optional. Music no longer autoplays and Links to speedrun timers have been added.
 	Rev 3.2   - Added a browser check for older versions of browsers. Also added a classic version (no-css) for those browsers.
 	Rev 3.2.1 - Various Tweaks.
-	Rev 3.2.2 - Changed all links to point to lunaqua.github.io/VideoGamesMarathon
+	Rev 3.2.2 - Changed all links to point to lunaqua.github.io/VideoGamesMarathon.
+	Rev 3.2.5 - Fixed compatibility with chromium-based browsers. Ugly, but it works.
 	Rev 3.3   - Added Sonic 3 A.I.R and changed music on the sonic pages. Complete migration to github.
