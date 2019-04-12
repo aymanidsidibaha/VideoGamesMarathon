@@ -1,0 +1,57 @@
+Video Games Marathon Warrant Canary
+___________________________________
+
+Although I am not a company nor am I located in the United States, I still think having this Canary is a good idea and represents a stand on certain laws. The below text is stolen from ivpn.net.
+
+Once per month I (TheBATs/Lunaqua) will publish a 'warrant canary' in the form of a cryptographically signed message containing the following:
+
+- A declaration that, up to that point, no warrants have been served, nor have any searches or seizures taken place.
+- Headlines from a major news source demonstrating that the update could not have been created prior to that date.
+
+Special note should be taken if these messages ever cease being updated, or are removed from this page. However this scheme is not infallible.  Although signing the declaration makes it impossible for a third party to produce arbitrary declarations, it does not prevent them from using force to coerce me (TheBATs/Lunaqua) to produce false declarations.  
+
+More information can be found here: https://www.privacytools.io/providers/#wc
+
+The current message is here:
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
+As of (the) 12th (of) April 2019 (12/04/2019) no warrants have ever been served to myself (or I assume Github). No searches or seizures of any kind have ever been performed on my assets. I have no direct or indirect knowledge of any backdoors, or potential backdoors in Github's servers or network and I assume Github has not received any requests to implement a backdoor. I (and I hope github) have never disclosed any user communications to any third party.
+
+(from https://www.bbc.co.uk/news)
+
+Sudan coup leader steps down.
+Army chief Awad Ibn Auf quits a day after staging a coup that toppled veteran leader Omar al-Bashir.
+
+New Star Wars movie title revealed.
+The Rise of Skywalker will see the return of villain Emperor Palpatine, the producers revealed.
+
+Trump weighs migrant political reprisal.
+Critics call Mr Trump's talk of freeing migrant detainees only in Democratic cities "a scare tactic".
+
+Public key fingerprint.
+Fingerprint:	2455F0557AD8F8394A974F6697435BEE04E0D9DD
+
+Public Key location:
+	https://lunaqua.github.io/VideoGamesMarathon/publickey.asc
+	https://privatebin.net/?a3e3b67bb11cd84b#/F9nZNNJL9PxIDNHvo/GTfMJruFUNiA6S96pWET8GqA=
+
+-----BEGIN PGP SIGNATURE-----
+
+iQGzBAEBCAAdFiEEJFXwVXrY+DlKl09ml0Nb7gTg2d0FAlyxC3cACgkQl0Nb7gTg
+2d17Mgv/Whse7H0GDN40QPqxNZc8RWJb6iS2uPr6RDXexfeD1JyGqe9FGq4BUM3T
+j7vNdDgPsEHphFMaT92R+wWRbzdSNqnIL8YahkVWe3lViXx9nhnEG4YGfjkuCG4N
+7GU37WY1JJRsHOBg4MBdmnwZmYK90CymgVZYwIy4WkulhDSlNBkaFBtWnBNtxd0O
+yxMQnSWqWTwl49u+6ebM3D6orHro+7xmlPo9IPQyjB5RPjipD4msr8wQlhi5NvFe
+Ln6kiNvUXrkAHwj6eSPIQIQnhfxE90NAA3gFy+vYp7fhKZn3kK1VnfTRdq6reysW
+882FVPDnoUt2SoEVmiUVzCTtMZknGUlbun59Ds/khRDPqxGaOffpfahfie8ufy9P
+uQznIJbL02SasVSEdA+rh1jqPl1JoJYLiK4a6sVJpw/m2NTPjpY46rjyECyuGfXa
+s7hUx302RUwL8PL/5+WdqQ0Y36lSWiJgaiWeTHtlVX3OxvZFK/zQnVDcJvYaLGGO
+qmfKXqp0
+=UCyI
+-----END PGP SIGNATURE-----
+
+Public Key location:
+	https://lunaqua.github.io/VideoGamesMarathon/publickey.asc
+	https://privatebin.net/?a3e3b67bb11cd84b#/F9nZNNJL9PxIDNHvo/GTfMJruFUNiA6S96pWET8GqA=
