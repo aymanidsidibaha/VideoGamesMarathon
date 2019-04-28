@@ -1,0 +1,30 @@
+.back{
+	background-image:url("images/zelda.jpg");
+	background-size: cover;
+}
+
+@font-face {
+  font-family: HyliaSerif;
+  src: url(HyliaSerifBeta-Regular.otf);
+}
+
+@font-face {
+  font-family: ReturnofGanon;
+  src: url(ReturnofGanon.ttf);
+}
+
+h1{
+	color: white;
+	font-family: HyliaSerif;
+	font-size: 85px;
+	padding-left: 55px;
+	padding-top: 55px;
+}
+
+p{
+	color: white;
+	font-family: ReturnofGanon;
+	font-size: 20px;
+	padding-left: 55px;
+	padding-top: 3px;
+}
