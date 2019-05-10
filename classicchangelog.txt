@@ -59,3 +59,4 @@ Genesis 1.0 - Creation
 	Rev 3.2.5 - Fixed compatibility with chromium-based browsers. Ugly, but it works.
 	Rev 3.3   - Added Sonic 3 A.I.R and changed music on the sonic pages. Complete migration to github.
 	Rev 3.3.2 - Moved Metroid: Other M to be played as a prequel.
+	Rev 3.4   - The Barbie Update, this was requested I think?

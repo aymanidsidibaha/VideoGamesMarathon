@@ -66,6 +66,18 @@
 	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
+.BarbieButton{
+	background-color: white; 
+    color: black; 
+    border: 2px solid #FF50FF;
+}
+
+.BarbieButton:hover{
+	background-color: #FF50FF;
+    color: white;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
 .SonicRetroButton{
 	background-color: white; 
     color: black; 
@@ -126,7 +138,18 @@ a:visited{
 	position:relative
 	}
 	
+.BarbieRules {
+	font-family: 'IBM Plex Mono', monospace;
+	font-size: 0px;
+	opacity:1;
+	position:relative
+	}
+	
 .MetroidGames {
+	font-size: 0px;
+	}
+	
+.BarbieGames {
 	font-size: 0px;
 	}
 	
@@ -170,6 +193,11 @@ p {
 @keyframes fade5 {
     from {background-color: black;}
     to {background-color:7A8B00 }
+}
+
+@keyframes fade6 {
+    from {background-color: white;}
+    to {background-color:#FF50FF }
 }
 
 .rotate {
@@ -225,7 +253,7 @@ p {
 
 .rot:hover{
 	width: 300px;
-    height: 1500px;
+    height: 1550px;
     transform:rotate(0deg);
     animation-name:fade2;
     animation-duration:0.5s;
@@ -298,7 +326,23 @@ p {
 	margin-right: auto;
 	padding:15px;
 	background: linear-gradient(141deg, #5C9962 0%, #20540C 51%, #000000 75%);
-	}	
+	}
+
+.scale5{
+	width: 100px;
+	opacity:0.6 ;
+    height: 85px;
+    background: blue;
+    transition: width 1s, height 1s, transform 1s;
+	width: 250px;
+	border: 7px solid black ;
+	border-radius:17px ;
+	background-color:ddffff;
+	margin-left: auto;
+	margin-right: auto;
+	padding:15px;
+	background: linear-gradient(141deg, #AF00AF 0%, #FF4F8A 51%, #FFA0FF 75%);
+	}		
 	
 	
 
@@ -315,6 +359,10 @@ p {
 }
 	
 .MetroidText{
+	font-size:0px;
+	}
+
+.BarbieText{
 	font-size:0px;
 	}
 
@@ -363,6 +411,17 @@ p {
 	background: linear-gradient(to left, rgba(82,249,255,0.3), rgba(82,249,255,1));
 	color:black;
 	}
+	
+.raspberry{
+    width: 100px;
+    height: 50px;
+    -webkit-transition: width 1s, height 1s, -webkit-transform 2s; /* Safari */
+    transition: width 1s, height 1s, transform 1s;
+	border: 3px solid black;
+	border-radius:4px;
+	background: linear-gradient(to left, rgba(205, 30, 205,0.3), rgba(255,255,255,1));
+	color:black;
+	}
 
 
 .scal:hover{
@@ -378,6 +437,16 @@ p {
 .scals:hover{
 	width: 300px;
     height: 200px;
+    transform:rotate(0deg);
+    animation-name:fade2;
+    animation-duration:1s;
+    animation-direction:reverse;
+	font-size:11px;
+	}
+	
+.scalb:hover{
+	width: 300px;
+    height: 550px;
     transform:rotate(0deg);
     animation-name:fade2;
     animation-duration:1s;
@@ -461,6 +530,18 @@ animation-iteration-count: infinite;
 color:white;
 }
 
+.fadey5{
+	border: 7px solid black ;
+border-radius:17px ;
+background-color:ddffff ;
+opacity:0.6 ;
+animation-name:fade6;
+animation-duration:2s;
+animation-direction: alternate;
+animation-iteration-count: infinite;
+color:black;
+}
+
 
 .back{
 	background-image:url("images/sonicBackground.png");
@@ -476,6 +557,10 @@ color:white;
 	
 .backm{
 	background-image:url("images/metroidBack.png");
+	}
+	
+.backb{
+	background-image:url("images/barbieBack.png");
 	}
 	
 .centre{

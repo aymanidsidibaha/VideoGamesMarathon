@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Video Games Marathon Rev 3.3.2</title>
+<title>Video Games Marathon Rev 3.4</title>
 <meta charset="utf-8">
 <link rel="icon" href="favicon.ico" type="image/x-icon"/> <!--Sets the favicon (little icon) for the page -->
 <link href="main4.css" rel="stylesheet"><!--Loads the main css file-->
@@ -11,7 +11,7 @@
 <body class="back CursorSonic"> <!-- The class back applies the background, CursorSonic applies the custom cursor. It loads the Star Trek date thing on load-->
 <iframe class="DuckDuckGoScroll" src="https://duckduckgo.com/search.html?duck=yes&prefill=Search DuckDuckGo" style="margin:0;padding:0;width:483px;height:60px;position: sticky; top: 10;" frameborder="0"></iframe><!-- The DuckDuckGo Search Bar-->
 
-<h1 class="centre" style="width: 430px;opacity:0.75;border: 2px solid black ;border-radius:4px;margin-right:auto;margin-left:auto;font-size: 32;background-image: linear-gradient(to right, rgba(0,0,0,0.15), rgba(0,0,0,0.6));">Video Games Marathon Rev 3.3.2</h1> <!--The title-->
+<h1 class="centre" style="width: 430px;opacity:0.75;border: 2px solid black ;border-radius:4px;margin-right:auto;margin-left:auto;font-size: 32;background-image: linear-gradient(to right, rgba(0,0,0,0.15), rgba(0,0,0,0.6));">Video Games Marathon Rev 3.4</h1> <!--The title-->
 <h4 class="h4 centre"><a href="https://lunaqua.github.io/VideoGamesMarathon/">https://lunaqua.github.io/VideoGamesMarathon/</a> or <a href="https://tinyurl.com/VGMarathon">https://tinyurl.com/VGMarathon</a></h4>
 <h4 class="h4 centre">Source code avaliable here: <a href="https://github.com/Lunaqua/VideoGamesMarathon/">https://github.com/Lunaqua/VideoGamesMarathon/</a></h4>
 <h4 class="h4 centre">The following is a list of easily playable games in the Sonic/Metroid franchise in chronological order. Older Browsers can go here: <a href="classic.html">Classic</a> It is for use as a marathon list:</h4>
@@ -20,6 +20,13 @@
 <h2>Rules:</h2>
 <div class="BackgroundFade">
 <ul>
+
+<div class="BarbieRules">
+<li>You must watch each movie all the way through.</li>
+<li>No skipping or fast forwarding.</li>
+<li>Each movie can be watched at any stage in a day.</li>
+<li>Watch one movie a day</li>
+</div>
 
 <div class="MetroidRules">
 <li>No skips or major glitches.</li>
@@ -72,8 +79,46 @@
 <div class="scale scal" style=""> 
 <p>Games</p>
 
+<div class="BarbieGames">
+<p class="BarbieText">
+Barbie in the Nutcracker<br>
+Barbie as Rapunzel<br>
+Barbie of Swan Lake<br>
+Barbie as the Princess and the Pauper<br>
+Barbie Fairytopia<br>
+Barbie and the Magic of Pegasus<br>
+Barbie Fairytopia: Mermaidia<br>
+The Barbie Diaries<br>
+Barbie in the 12 Dancing Princesses<br>
+Barbie Fairytopia: Magic of the Rainbow<br>
+Barbie as the Island Princess<br>
+Barbie Mariposa<br>
+Barbie and the Diamond Castle<br>
+Barbie in a Christmas Carol<br>
+Barbie Presents: Thumbelina<br>
+Barbie and the Three Musketeers<br>
+Barbie in a Mermaid Tale<br>
+Barbie: A Fashion Fairytale<br>
+Barbie: A Fairy Secret <br>
+Barbie: Princess Charm School<br>
+Barbie: A Perfect Christmas<br>
+Barbie in a Mermaid Tale 2 <br>
+Barbie: The Princess and the Popstar<br>
+Barbie in the Pink Shoes <br>
+Barbie: Mariposa and the Fairy Princess<br>
+Barbie and Her Sisters in a Pony Tale<br>
+Barbie: The Pearl Princess <br>
+Barbie and the Secret Door<br>
+Barbie in Princess Power<br>
+Barbie and Her Sisters in The Great Puppy Adventure <br>
+Barbie: Spy Squad<br>
+Barbie: Star Light Adventure<br>
+Barbie and Her Sisters in a Puppy Chase<br>
+Barbie: Video Game Hero<br>
+Barbie: Dolphin Magic
+</p>
+</div>
 <div class="MetroidGames">
-
 <p class="MetroidText">
 
 <a href="https://metroid.fandom.com/wiki/Metroid:_Other_M" target="iframe1">Metroid Other M - Wii </a><br>
@@ -241,6 +286,7 @@
 	Rev 3.2.5 - Fixed compatibility with chromium-based browsers. Ugly, but it works. <br>
 	Rev 3.3   - Added Sonic 3 A.I.R and changed music. Complete migration to github.<br>
 	Rev 3.3.2 - Moved Metroid: Other M to be played as a prequel. <br>
+	Rev 3.4   - The Barbie Update, This was requested I think?<br>
 </p>
 
 </div>
@@ -260,7 +306,64 @@ by TheBATs
 
 <Button class="MainButton SonicRetroButton"onclick="SonicRetro()">Sonic Retro</Button>
 
+<Button class="MainButton BarbieButton" onclick="Barbie()">Barbie Mode</Button>
+
 <Button class="MainButton"><a href="https://www.speedrun.com/resources"> Speedrunning Resources</a></Button>
+
+<script><!--Barbie Script-->
+function Barbie() {
+	var hideRules = document.querySelector(".SonicRules");
+	hideRules.classList.remove("SonicRules");
+	hideRules.classList.add("temp");
+	
+	var CursorSonic = document.querySelector(".CursorSonic");
+	CursorSonic.classList.remove("CursorSonic");
+	
+	var showRules = document.querySelector(".BarbieRules");
+	showRules.classList.remove("BarbieRules");
+	showRules.classList.add("SonicRules");
+	hideRules.classList.add("BarbieRules");
+	
+	var showgam = document.querySelector(".BarbieGames");
+	showgam.classList.remove("BarbieGames");
+	showgam.classList.add("SonicGames");
+	
+	var SonicText = document.querySelector(".SonicText");
+	SonicText.classList.remove("SonicText");
+	SonicText.classList.add("BarbieRules");
+	SonicText.classList.add("temp");
+	
+	var MetroidText = document.querySelector(".BarbieText");
+	MetroidText.classList.add("SonicGames");
+	MetroidText.classList.add("text3");
+	MetroidText.classList.remove("BarbieText");
+	MetroidText.classList.add("shatext");
+	
+	var scaley = document.querySelector(".scal");
+	scaley.classList.remove("scal");
+	scaley.classList.add("scalb");
+	
+	var fade4 = document.querySelector(".BackgroundFade");
+	fade4.classList.remove("BackgroundFade");
+	fade4.classList.add("fadey5");
+	
+	var scaley = document.querySelector(".scale");
+	scaley.classList.remove("scale");
+	scaley.classList.add("scale5");
+	
+	var theDropDown = document.querySelector(".rotate");
+	theDropDown.classList.remove("rotate");
+	theDropDown.classList.add("raspberry");
+	
+	var back = document.querySelector(".back");
+	back.classList.remove("back");
+	back.classList.add("backb");
+	
+
+	
+	document.getElementById("audioid").src="Barbie.mp3";
+}
+</script> 
 
 <script><!--Metroid Script-->
 function MetroidList() {
@@ -312,7 +415,7 @@ function MetroidList() {
 	var back = document.querySelector(".back");
 	back.classList.remove("back");
 	back.classList.add("backm");
-	
+
 	var h4 = document.querySelector(".h4");
 	back.classList.add("h42");
 	
@@ -392,7 +495,8 @@ function SonicRetro() {
 <a href="https://mozilla.org" ><img src="https://sdfox7.com/now9.gif" alt="Net"></a>
 
 <audio id="audioid" src="ss.flac" 
-	controls>
+	controls
+	autoplay>
 </audio>
 </div>
     <div id="outdated"></div>
