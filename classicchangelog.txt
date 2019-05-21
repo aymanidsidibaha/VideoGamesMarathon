@@ -60,3 +60,5 @@ Genesis 1.0 - Creation
 	Rev 3.3   - Added Sonic 3 A.I.R and changed music on the sonic pages. Complete migration to github.
 	Rev 3.3.2 - Moved Metroid: Other M to be played as a prequel.
 	Rev 3.4   - The Barbie Update, this was requested I think?
+	Rev 3.4.2 - Added a couple extra links.
+	Rev 3.4.5 - Sonic Team Racing has now been released!
