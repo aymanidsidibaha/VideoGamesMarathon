@@ -203,7 +203,7 @@ p {
 
 .rotate {
     width: 100px;
-    height: 50px;
+    height: 125px;
     -webkit-transition: width 1s, height 1s, -webkit-transform 2s; /* Safari */
     transition: width 1s, height 1s, transform 1s;
 	border: 3px solid black;
@@ -382,7 +382,7 @@ p {
 	
 .orange{
     width: 100px;
-    height: 50px;
+    height: 125px;
     -webkit-transition: width 1s, height 1s, -webkit-transform 2s; /* Safari */
     transition: width 1s, height 1s, transform 1s;
 	border: 3px solid black;
@@ -393,7 +393,7 @@ p {
 	
 .strawberry{
     width: 100px;
-    height: 50px;
+    height: 125px;
     -webkit-transition: width 1s, height 1s, -webkit-transform 2s; /* Safari */
     transition: width 1s, height 1s, transform 1s;
 	border: 3px solid black;
@@ -404,7 +404,7 @@ p {
 	
 .blueberry{
     width: 100px;
-    height: 50px;
+    height: 125px;
     -webkit-transition: width 1s, height 1s, -webkit-transform 2s; /* Safari */
     transition: width 1s, height 1s, transform 1s;
 	border: 3px solid black;
@@ -415,7 +415,7 @@ p {
 	
 .raspberry{
     width: 100px;
-    height: 50px;
+    height: 125px;
     -webkit-transition: width 1s, height 1s, -webkit-transform 2s; /* Safari */
     transition: width 1s, height 1s, transform 1s;
 	border: 3px solid black;
