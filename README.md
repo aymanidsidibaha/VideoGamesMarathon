@@ -11,4 +11,4 @@ Because I'm bad.
 ## What going on with the optional games?
 These games are not essential to play to experience a great sonic experience.
 
-#Thanks for Watching.
+##Thanks for Watching.
