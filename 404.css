@@ -5,12 +5,12 @@
 
 @font-face {
   font-family: HyliaSerif;
-  src: url(HyliaSerifBeta-Regular.otf);
+  src: url(fonts/HyliaSerifBeta-Regular.otf);
 }
 
 @font-face {
   font-family: ReturnofGanon;
-  src: url(ReturnofGanon.ttf);
+  src: url(fonts/ReturnofGanon.ttf);
 }
 
 h1{
