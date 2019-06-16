@@ -254,7 +254,7 @@ p {
 
 .rot:hover{
 	width: 300px;
-    height: 1550px;
+    height: 1600px;
     transform:rotate(0deg);
     animation-name:fade2;
     animation-duration:0.5s;
