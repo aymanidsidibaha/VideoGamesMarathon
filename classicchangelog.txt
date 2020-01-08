@@ -1,4 +1,4 @@
-Changelog for classic revision.
+Changelog for main site.
 
 Genesis 1.0 - Creation
 	Rev 1.1   - Added the Rules
@@ -65,3 +65,5 @@ Genesis 1.0 - Creation
 	Rev 3.5   - Revised the list of Optional Titles.
 	Rev 3.5.2 - More internal changes.
 	Rev 3.5.5 - Added Sonic 1 SMS Remake to the list.
+	Rev 3.6 pre1 - Pre-release of 3.6 adding and changing mainly visual things. Updates, enhancements, that sort of thing, plus fsf.
+	

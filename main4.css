@@ -1,4 +1,7 @@
-/* This is the main CSS File, messy, but functional */
+/* This is the main CSS File, messy, and barely functional 
+* Beware all ye who enter.
+* You may be met with a headache trying to work it all out
+*/
 
 .CursorSonic {
 	cursor:url("sonic.gif"), default;
@@ -7,6 +10,11 @@
 @font-face {
   font-family: Abelone;
   src: url(fonts/Abelone-FREE.otf);
+}
+
+.oof{
+	width: 1px;
+	height: 1px;
 }
 
 .CursorTails{
@@ -93,7 +101,7 @@
 .DuckDuckGoScroll{
 	position: -webkit-sticky;
 	position: sticky;
-	top: 5px;
+	top: 0;
 	padding-top: 5px;
 }
 h1 {
@@ -490,11 +498,15 @@ p {
 border: 7px solid black ;
 border-radius:17px ;
 background-color:ddffff ;
-opacity:0.6 ;
+opacity:0.85 ;
 animation-name:fade;
 animation-duration:2s;
 animation-direction: alternate;
 animation-iteration-count: infinite; 
+}
+
+.footerStyle{
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.6));
 }
 
 .fadey2{
