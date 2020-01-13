@@ -9,7 +9,7 @@ It's simple to follow and allows multiple types of playthroughs, along with game
 Because I'm bad.
 
 ## What going on with the optional games?
-These games are not essential to play to experience a great sonic experience.
+These are games not in the main sonic franchise or they are remakes of older games or ports. The ROM Hacks are also optional.
 
 ## What's Psi 4
 Still not sure yet.
@@ -22,5 +22,16 @@ Tasty, but no.
 
 ### What's this Outdated Browser thingy (If it still works)
 Err, you probably want to use something that isn't netscape, or chrome really for that matter. Use Firefox. 
+
+### Why is the changelog so long
+Because updates.
+
+### What about the license?
+The webpage's code and assets I made myself are under the GNU GPL. Assets and other things I have no idea. The fonts are free for noncommerial use.
+Versions before 3.2.1/3.2.2 ish did not have a license attached and are basically therefore in the public domain I guess,  if you can find them.
+Before 2.0 it wasn't even a webpage so...
+
+### Aren't you breaking some sort of copyright law or something?
+Probably. shhh.
 
 # Thanks for Reading
