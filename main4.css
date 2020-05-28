@@ -3,6 +3,14 @@
 * You may be met with a headache trying to work it all out
 */
 
+.imgBlur {
+	transition: 1s;
+}
+
+.imgBlur:hover {
+	filter: blur(5px);
+}
+
 .CursorSonic {
 	cursor:url("sonic.gif"), default;
 }
@@ -262,7 +270,7 @@ p {
 
 .rot:hover{
 	width: 300px;
-    height: 1600px;
+    height: 1700px;
     transform:rotate(0deg);
     animation-name:fade2;
     animation-duration:0.5s;
@@ -276,7 +284,7 @@ p {
 .scale{
 	width: 100px;
 	opacity:0.6 ;
-    height: 85px;
+    height: 120px;
     background: blue;
     transition: width 1s, height 1s, transform 1s;
 	width: 250px;
@@ -292,7 +300,7 @@ p {
 .scale2{
 	width: 100px;
 	opacity:0.6 ;
-    height: 85px;
+    height: 120px;
     background: blue;
     transition: width 1s, height 1s, transform 1s;
 	width: 250px;
@@ -308,7 +316,7 @@ p {
 .scale3{
 	width: 100px;
 	opacity:0.6 ;
-    height: 85px;
+    height: 120px;
     background: blue;
     transition: width 1s, height 1s, transform 1s;
 	width: 250px;
@@ -324,7 +332,7 @@ p {
 .scale4{
 	width: 100px;
 	opacity:0.6 ;
-    height: 85px;
+    height: 120px;
     background: blue;
     transition: width 1s, height 1s, transform 1s;
 	width: 250px;
@@ -340,7 +348,7 @@ p {
 .scale5{
 	width: 100px;
 	opacity:0.6 ;
-    height: 85px;
+    height: 120px;
     background: blue;
     transition: width 1s, height 1s, transform 1s;
 	width: 250px;
@@ -507,6 +515,9 @@ animation-iteration-count: infinite;
 
 .footerStyle{
 	background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.6));
+}
+.footerStyleInverse{
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0.6), rgba(0,0,0,0));
 }
 
 .fadey2{
